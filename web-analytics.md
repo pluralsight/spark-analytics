@@ -84,7 +84,6 @@ val items = gdf.collect
 
 ```javascript
 
-```javascript
 %angular
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
 <div id="map" style="height: 800px; width: 100%"></div>
@@ -121,4 +120,8 @@ else {
     document.getElementsByTagName('head')[0].appendChild(sc);
 }
 </script>
+```
+
+```
+z.angularBind("data", items)
 ```
